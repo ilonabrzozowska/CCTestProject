@@ -89,3 +89,65 @@ header {
     padding: 22px 0 18px 0;
     background: #2de8df;
 }
+
+/* start articles content
+   -------------------------------------------------------------------------- */
+
+.articles-section {
+	padding: 35px 120px 70px 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.articles-section > h1 {
+	display: none;
+}
+
+.articles-section h2 {
+	color: #ee8a55;
+    font-size: 2.375em;
+    padding-bottom: 27px;
+    font-family: "Bree Serif";
+}
+
+.articles-section > article {
+    width: 300px;    
+    margin-right: 20px;
+    position: relative;
+}
+
+.articles-section > article:last-child {
+	margin-right: 0;
+}
+
+article p {
+    display: inline-block;
+    font-size: 0.875em;
+    line-height: 1.375em;
+    text-align: justify;
+}
+
+article p:first-of-type {
+    display: block;
+}
+
+.articles-section > article > img {
+	float: left;
+    margin: 0 20px 20px 0;
+    padding: 1px;
+    border: 1px solid #000000;
+}
+
+article button {
+    color: #bdbdbd;
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    font-size: 0.875em;
+}
+
+article button:hover {
+    color: #2de8df;
+}
