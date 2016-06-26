@@ -206,3 +206,10 @@ form input, textarea {
     font-size: 1em;
     margin-top: 30px;
 }
+
+#submit:hover {
+	box-shadow: inset 0px 2px 3px 1px #21b3ac;
+    border: 0;
+    padding: 18px 0 14px 0;
+    background: #2de8df;
+}
