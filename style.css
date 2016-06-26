@@ -1,0 +1,91 @@
+/* start header content
+   -------------------------------------------------------------------------- */
+
+header {
+    border-top: 10px solid #2de8df;
+    padding: 30px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.navigation-menu {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 120px;
+}
+
+.navigation-menu > li {
+	height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-menu > li:first-child {
+    justify-content: flex-start;
+}
+
+.navigation-menu > li:last-child {
+    justify-content: flex-end;
+}
+
+.navigation-menu > li > a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.8em;
+}
+
+.navigation-menu > li > a:hover {
+    color: #e5e5e5;
+    position: relative;
+}
+
+.navigation-menu > li > a:hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;    
+    left: 0;
+    bottom: -25px;
+    border-bottom: 1px solid #2de8df;  
+}
+
+.navigation-menu > li#logo a:hover::after {
+    border: 0;
+}
+
+/* start hero content
+   -------------------------------------------------------------------------- */
+
+.hero-section {
+	margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+    padding: 55px 0 70px 0;
+}
+
+.hero-section > h1 {
+	font-family: "Bree Serif";
+    font-size: 5.125em;
+    padding-bottom: 75px;
+}
+
+.hero-section > button {
+	padding: 20px;
+    width: 300px;
+    background: linear-gradient(to bottom, #2bf2e8 0%, #2de8df 100%);
+    border-radius: 7px;
+    box-shadow: inset 0 -5px 0px 0 #21b3ac;
+    color: #21b3ac;
+    text-shadow: 1px 1px #44eee7;
+    font-size: 1em;
+}
+
+.hero-section > button:hover {
+	box-shadow: inset 0px 2px 3px 1px #21b3ac;
+    border: 0;
+    padding: 22px 0 18px 0;
+    background: #2de8df;
+}
