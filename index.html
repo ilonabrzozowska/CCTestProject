@@ -50,11 +50,15 @@
         </section>
         <form>
             <h1>Contact us</h1>
-            <input type="text" name="name" placeholder="name">
-            <input type="email" name="email" placeholder="e-mail">
-            <input type="tel" name="phone" placeholder="phone">
-            <input type="text" name="message" placeholder="your message">
-            <input type="submit" name="submit" value="send message">
+            <div class="form-inputs">
+                <div>
+                    <input type="text" name="name" placeholder="name">
+                    <input type="email" name="email" placeholder="e-mail">
+                    <input type="tel" name="phone" placeholder="phone">
+                </div>
+                <textarea id="message" name="message" form="usrform" placeholder="your message"></textarea>
+            </div>
+            <input id="submit" type="submit" name="submit" value="send message">
         </form>
         <footer>
             <button type="button">back to top</button>
