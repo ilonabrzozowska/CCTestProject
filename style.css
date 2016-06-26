@@ -157,7 +157,7 @@ article button:hover {
 
 form {
     text-align: center;
-    padding: 41px 0 0 0;
+    padding: 41px 0 80px 0;
 }
 
 form > h1 {
@@ -213,3 +213,90 @@ form input, textarea {
     padding: 18px 0 14px 0;
     background: #2de8df;
 }
+
+/* start button up content
+   -------------------------------------------------------------------------- */
+
+.button-up {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.button-up > button {
+    color: #fefefe;
+    background: #000000;
+    position: absolute;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px 5px 0 0;
+    margin-top: -35px; 
+    box-shadow: inset 0px 3px 0px 0px #555555;
+}
+
+.button-up > button:hover {
+	margin-top: -34px;
+}
+
+/* start footer content
+   -------------------------------------------------------------------------- */
+
+footer {
+    background: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 43px 100px 70px 100px;
+}
+
+.footer-nav {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.footer-menu {
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer-menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 1.6em;
+}
+
+.footer-menu:first-child {
+    display: flex;
+    align-items: flex-start;
+}
+
+footer > div > h3 {
+    display: none;
+}
+
+.social-links {
+	display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.social {
+    background: #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+	width: 300px;
+    display: flex;
+    align-items: center;
+}
+
