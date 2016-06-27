@@ -21,4 +21,17 @@ $(document).ready(function() {
         }, 3000);      
     });
     
-})
+    $('.more-button').click(function() {
+        var paragraph = $(this).parent().find('.more-text'),
+            textButton = $(this);
+        paragraph.slideToggle('slow');     
+        if (textButton.text() == textButton.data("text-swap")) {
+            textButton.text(textButton.data("text-original"));
+        } 
+        else {
+            textButton.data("text-original", textButton.text());
+            textButton.text(textButton.data("text-swap"));
+        }
+    })
+
+});

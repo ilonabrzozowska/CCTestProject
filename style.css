@@ -156,6 +156,10 @@ article button:hover {
     color: red;
 }
 
+.more-text {
+	display: none;
+}
+
 /* start contact content
    -------------------------------------------------------------------------- */
 
