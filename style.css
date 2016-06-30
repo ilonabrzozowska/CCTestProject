@@ -92,7 +92,7 @@ header {
 .hero-section > button:hover {
 	box-shadow: inset 0px 2px 3px 1px #21b3ac;
     border: 0;
-    padding: 22px 0 18px 0;
+    padding: 12px 0 8px 0;
     background: #2de8df;
 }
 
@@ -246,7 +246,7 @@ form input, textarea {
 #submit:hover {
 	box-shadow: inset 0px 2px 3px 1px #21b3ac;
     border: 0;
-    padding: 18px 0 14px 0;
+    padding: 13px 0 9px 0;
     background: #2de8df;
 }
 
@@ -781,7 +781,7 @@ header {
 }
 
 .hero-section > button:hover {
-    padding: 24px 0 18px 0;
+    padding: 26px 0 21px 0;
 }
 
 /* start articles content
@@ -857,7 +857,7 @@ form input, textarea {
 }
 
 #submit:hover {
-    padding: 18px 0 14px 0;
+    padding: 19px 0 15px 0;
 }
 
 /* start button up content
