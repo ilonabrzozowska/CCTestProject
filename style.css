@@ -1,3 +1,13 @@
+/* general styles used in various places */
+
+.hidden {
+    display: none;
+}
+
+.red {
+    color: red;
+}
+
 /* start header content
    -------------------------------------------------------------------------- */
 
@@ -107,10 +117,6 @@ header {
     border-bottom: 1px solid #ebebeb;
 }
 
-.articles-section > h1 {
-	display: none;
-}
-
 .articles-section h2 {
 	color: #ee8a55;
     font-size: 1.5em;
@@ -156,14 +162,6 @@ article button {
 
 article button:hover {
     color: #2de8df;
-}
-
-.red {
-    color: red;
-}
-
-.more-text {
-	display: none;
 }
 
 /* start contact content
@@ -310,10 +308,6 @@ footer {
     text-decoration: none;
     line-height: 1.6em;
     font-size: 0.7em;
-}
-
-.footer-section > div > h3 {
-    display: none;
 }
 
 .social-links {
