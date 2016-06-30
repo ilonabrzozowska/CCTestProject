@@ -30,12 +30,14 @@ $(document).ready(function() {
         var paragraph = $(this).parent().find('.more-text'),
             textButton = $(this);
         paragraph.slideToggle('slow');     
-        if (textButton.text() == textButton.data("text-swap")) {
-            textButton.text(textButton.data("text-original"));
+        if (textButton.text() == textButton.data('text-swap')) {
+            textButton.text(textButton.data('text-original'));
+            paragraph.addClass('hidden');
         } 
         else {
-            textButton.data("text-original", textButton.text());
-            textButton.text(textButton.data("text-swap"));
+            textButton.data('text-original', textButton.text());
+            textButton.text(textButton.data('text-swap'));
+            paragraph.removeClass('hidden');
         }
     })
 
